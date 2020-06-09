@@ -61,9 +61,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
         //changing img-src attr on event change
         flag = imageElement.setAttribute('src', `flags/${flag}.png`);
-        spinner.style.display = 'none';
       })
       .catch((err) => console.log(err));
+    spinner.style.display = 'none';
   }
 
   let count = 1;
