@@ -22,7 +22,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   //func to get flag image
   function flagImage(country, imageElement, countryNameElement) {
-    spinner.style.display = 'inline-block';
     fetch('flags.json')
       .then((res) => res.json())
       .then((data) => {
@@ -63,7 +62,6 @@ window.addEventListener('DOMContentLoaded', () => {
         flag = imageElement.setAttribute('src', `flags/${flag}.png`);
       })
       .catch((err) => console.log(err));
-    spinner.style.display = 'none';
   }
 
   let count = 1;
