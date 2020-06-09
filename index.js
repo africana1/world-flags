@@ -55,8 +55,6 @@ window.addEventListener('DOMContentLoaded', () => {
       countryNameElement.value = countryFullName;
     }
 
-    //console.log(flag);
-
     //changing img-src attr on event change
     flag = imageElement.setAttribute('src', `flags/${flag}.png`);
   }

@@ -4,27 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="password.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <!--
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    /> -->
+
     <title>World flags</title>
   </head>
   <body>
     <div class="container">
-      <p class="image image1">
-        <input type="text" id="countryName1" class="countryName" value="Andorra" readonly />
-        <img src="flags/ad.png" alt="Country Flag" id="countryFlag1" width="300" height="200" />
-      </p>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <input type="text" id="countryName1" class="form-control mt-2" value="Andorra" readonly />
+          <img src="flags/ad.png" alt="Country Flag" id="countryFlag1" class="" width="300" height="200" />
+        </div>
 
-      <p class="image image2">
-        <input type="text" id="countryName2" class="countryName" value="Andorra" readonly />
-        <img src="flags/ad.png" alt="Country Flag" id="countryFlag2" width="300" height="200" />
-      </p>
+        <div class="col-md-4 col-sm-12">
+          <input type="text" id="countryName2" class="form-control mt-2" value="Andorra" readonly />
+          <img src="flags/ad.png" alt="Country Flag" id="countryFlag2" class="" width="300" height="200" />
+        </div>
 
-      <p class="image image3">
-        <input type="text" id="countryName3" class="countryName" value="Andorra" readonly />
-        <img src="flags/ad.png" alt="Country Flag" id="countryFlag3" width="300" height="200" />
-      </p>
+        <div class="col-md-4 col-sm-12">
+          <input type="text" id="countryName3" class="form-control mt-2" value="Andorra" readonly />
+          <img src="flags/ad.png" alt="Country Flag" id="countryFlag3" class="" width="300" height="200" />
+        </div>
+      </div>
+      <div class="text-center mb-5">
+        <select id="countriesList" class="btn btn-dark mt-3 ml-n5"> </select>
+      </div>
     </div>
-    <select id="countriesList" class="countriesList"> </select>
 
     <script src="flags.js"></script>
     <script src="index.js"></script>
