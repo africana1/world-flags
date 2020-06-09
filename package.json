@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "name": "world.flags",
+  "description": "World flags and countries name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/africana1/world-flags.git"
+  },
+  "keywords": [
+    "Countries",
+    "Flag",
+    "Geography"
+  ],
+  "author": "Quimby africana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/africana1/world-flags/issues"
+  },
+  "homepage": "https://github.com/africana1/world-flags#readme"
+}
