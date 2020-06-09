@@ -60,7 +60,7 @@ option {
   top: calc(80vh - 40%);
 }
 
-@media screen and (max-width: 908px) {
+@media screen and (max-width: 768px) {
   .container {
     display: grid;
     align-items: center;
