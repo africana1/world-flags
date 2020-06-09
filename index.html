@@ -23,9 +23,18 @@
         <input type="text" id="countryName3" class="countryName" value="Andorra" readonly />
         <img src="flags/ad.png" alt="Country Flag" id="countryFlag3" width="300" height="200" />
       </p>
-      <select id="countriesList" class="countriesList"> </select>
-      <br /><br />
+      <div class="lds-roller" id="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
+    <select id="countriesList" class="countriesList"> </select>
 
     <script src="flags.js"></script>
     <script src="index.json.js"></script>
